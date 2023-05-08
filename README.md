@@ -3,10 +3,10 @@
 ![](https://img.shields.io/badge/Spring-6DB33F.svg?style=for-the-badge&logo=Spring&logoColor=white) ![](https://img.shields.io/badge/Hibernate-59666C.svg?style=for-the-badge&logo=Hibernate&logoColor=white) ![](https://img.shields.io/badge/Apache%20Maven-C71A36.svg?style=for-the-badge&logo=Apache-Maven&logoColor=white) ![](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=MySQL&logoColor=white) ![](https://img.shields.io/badge/Liquibase-2962FF.svg?style=for-the-badge&logo=Liquibase&logoColor=white)
 ### About Application
 The application is second release system which provide technical support in a restaurant brewery. In this release will be introduce some improvments like: 
-REST
-LIQUIBASE
-The backend layer will be separated from the fronend layer
-The application is designed to create a system which provide technical support in a restaurant brewery. The application is to provide the ability to create detailed production reports for a specific recipe and its ingredients, and then present the data in an esthetic way on charts.
+<br />:point_right: REST
+<br />:point_right: LIQUIBASE
+<br />:point_right: The backend layer has been separated from the fronend layer
+<br /> The application is designed to create a system which provide technical support in a restaurant brewery. The application is to provide the ability to create detailed production reports for a specific recipe and its ingredients, and then present the data in an esthetic way on charts.
 #### Class Diagram
 ![class diagram](https://user-images.githubusercontent.com/59393105/236632508-dbefa4e6-cce6-4769-82b2-3c684b0da498.png)
 
