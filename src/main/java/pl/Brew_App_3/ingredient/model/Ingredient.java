@@ -1,12 +1,12 @@
-package pl.Brew_App_3.ingredient;
+package pl.Brew_App_3.ingredient.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pl.Brew_App_3.raw.Raw;
-import pl.Brew_App_3.recipe.Recipe;
+import pl.Brew_App_3.raw.model.Raw;
+import pl.Brew_App_3.recipe.model.Recipe;
 
 @Entity
 @Getter

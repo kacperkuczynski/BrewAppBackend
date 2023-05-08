@@ -1,4 +1,4 @@
-package pl.Brew_App_3.raw;
+package pl.Brew_App_3.raw.controller.dto;
 
 import lombok.Builder;
 import lombok.Getter;

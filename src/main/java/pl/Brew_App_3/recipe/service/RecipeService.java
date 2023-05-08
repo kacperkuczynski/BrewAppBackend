@@ -1,12 +1,15 @@
-package pl.Brew_App_3.recipe;
+package pl.Brew_App_3.recipe.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import pl.Brew_App_3.ingredient.Ingredient;
-import pl.Brew_App_3.ingredient.IngredientRepository;
-import pl.Brew_App_3.raw.Raw;
+import pl.Brew_App_3.ingredient.model.Ingredient;
+import pl.Brew_App_3.ingredient.repository.IngredientRepository;
+import pl.Brew_App_3.raw.model.Raw;
+import pl.Brew_App_3.recipe.controller.dto.RecipeDto;
+import pl.Brew_App_3.recipe.model.Recipe;
+import pl.Brew_App_3.recipe.repository.RecipeRepository;
 
 import java.util.List;
 

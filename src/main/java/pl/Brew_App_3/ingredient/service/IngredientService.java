@@ -1,8 +1,9 @@
-package pl.Brew_App_3.ingredient;
+package pl.Brew_App_3.ingredient.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import pl.Brew_App_3.recipe.RecipeRepository;
+import pl.Brew_App_3.ingredient.model.Ingredient;
+import pl.Brew_App_3.ingredient.repository.IngredientRepository;
 
 @Service
 @RequiredArgsConstructor

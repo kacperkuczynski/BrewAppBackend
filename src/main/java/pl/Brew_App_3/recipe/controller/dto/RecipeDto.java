@@ -1,8 +1,8 @@
-package pl.Brew_App_3.recipe;
+package pl.Brew_App_3.recipe.controller.dto;
 
 import lombok.Builder;
 import lombok.Getter;
-import pl.Brew_App_3.ingredient.Ingredient;
+import pl.Brew_App_3.ingredient.model.Ingredient;
 import java.util.List;
 
 @Getter

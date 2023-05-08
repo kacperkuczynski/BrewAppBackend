@@ -1,14 +1,16 @@
-package pl.Brew_App_3.ingredient;
+package pl.Brew_App_3.ingredient.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import pl.Brew_App_3.raw.Raw;
-import pl.Brew_App_3.raw.RawRepository;
-import pl.Brew_App_3.recipe.Recipe;
-import pl.Brew_App_3.recipe.RecipeRepository;
+import pl.Brew_App_3.ingredient.model.Ingredient;
+import pl.Brew_App_3.ingredient.service.IngredientService;
+import pl.Brew_App_3.raw.model.Raw;
+import pl.Brew_App_3.raw.repository.RawRepository;
+import pl.Brew_App_3.recipe.model.Recipe;
+import pl.Brew_App_3.recipe.repository.RecipeRepository;
 
 @RestController
 @RequiredArgsConstructor

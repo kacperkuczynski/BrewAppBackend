@@ -1,23 +1,22 @@
-package pl.Brew_App_3.raw;
+package pl.Brew_App_3.recipe.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import pl.Brew_App_3.ingredient.Ingredient;
-
-import java.util.List;
 
 @Entity
-@Getter
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
-public class Raw {
+@NoArgsConstructor
+@Getter
+public class Recipe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String typeRaw;
+    private Long numberRecipe;
+    private String nameRecipe;
+    private String slug;
 
 }

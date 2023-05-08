@@ -1,4 +1,4 @@
-package pl.Brew_App_3.recipe;
+package pl.Brew_App_3.recipe.controller;
 
 import jakarta.validation.constraints.Pattern;
 import lombok.RequiredArgsConstructor;
@@ -10,6 +10,10 @@ import org.springframework.data.domain.PageImpl;
 import pl.Brew_App_3.common.utils.SlugifyUtils;
 import org.jsoup.safety.Safelist;
 import org.jsoup.Jsoup;
+import pl.Brew_App_3.recipe.controller.dto.RecipeDto;
+import pl.Brew_App_3.recipe.controller.dto.RecipeListDto;
+import pl.Brew_App_3.recipe.service.RecipeService;
+import pl.Brew_App_3.recipe.model.Recipe;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -28,6 +32,7 @@ public class RecipeController {
                         .id(recipe.getId())
                         .numberRecipe(recipe.getNumberRecipe())
                         .nameRecipe(recipe.getNameRecipe())
+                        .slug(recipe.getSlug())
                         .build())
                 .collect(Collectors.toList());
         return new PageImpl<>(recipeList, pageable, recipes.getTotalElements());

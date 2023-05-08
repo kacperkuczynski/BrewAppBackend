@@ -1,8 +1,9 @@
-package pl.Brew_App_3.ingredient;
+package pl.Brew_App_3.ingredient.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
-import pl.Brew_App_3.recipe.Recipe;
+import pl.Brew_App_3.ingredient.model.Ingredient;
+import pl.Brew_App_3.recipe.model.Recipe;
 
 import java.util.List;
 

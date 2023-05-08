@@ -1,9 +1,12 @@
-package pl.Brew_App_3.raw;
+package pl.Brew_App_3.raw.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
+import pl.Brew_App_3.raw.controller.dto.RawDto;
+import pl.Brew_App_3.raw.service.RawService;
+import pl.Brew_App_3.raw.model.Raw;
 
 @RestController
 @RequiredArgsConstructor

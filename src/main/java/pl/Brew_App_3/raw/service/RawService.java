@@ -1,9 +1,11 @@
-package pl.Brew_App_3.raw;
+package pl.Brew_App_3.raw.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
+import pl.Brew_App_3.raw.model.Raw;
+import pl.Brew_App_3.raw.repository.RawRepository;
 
 @Service
 @RequiredArgsConstructor
